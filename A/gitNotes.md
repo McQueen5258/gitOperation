@@ -22,7 +22,7 @@ git config user.email "uwizeyeeric@icloud.com"	//开发者邮箱
 
 ## 工作流
 
-![trees](/Users/ericuwizeye/Desktop/trees.png)
+![trees](./img/trees.png)
 
 *你的本地仓库由 git 维护的三棵"树"组成。第一个是你的 `工作目录`，它持有实际文件；第二个是 `暂存区（Index）`，它像个缓存区域，临时保存你的改动；最后是 `HEAD`，它指向你最后一次提交的结果。*
 
@@ -66,7 +66,7 @@ git push origin master //把本地文件push到orgin库里面，在master分支
 
 ## 分支
 
-![branches](/Users/ericuwizeye/Desktop/branches.png)
+![branches](./img/branches.png)
 
 *分支是用来将特性开发绝缘开来的。在你创建仓库的时候，**master** 是"默认的"分支。在其他分支上进行开发，完成后再将它们合并到主分支上。*
 
@@ -166,5 +166,5 @@ TODO:
 
 在合并改动前，可以使用以上命令预览差异
 
-- [ ] 确认是不是学会了“创建远程仓库”	
+- [x] 确认是不是学会了“创建远程仓库”	
 - [x] 在本地尝试把主分支master跟b1分支合并的权限问题。//不是权限问题，是有一个分支缺少文件。
