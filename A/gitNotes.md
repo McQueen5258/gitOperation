@@ -72,7 +72,7 @@ git push origin master //把本地文件push到orgin库里面，在master分支
 
 
 
-### 1.创建/删除分支
+### 饿1.创建/删除分支
 
 git checkout -b b1	//创建分支b1。如果想删除分支把-b换成-d
 
